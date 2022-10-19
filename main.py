@@ -97,7 +97,7 @@ def about_window():
     #TODO: organizar o texto e a decoração da janela about
 
     window = tk.Toplevel(root)
-    window.geometry("400x400")
+    window.geometry("400x300")
     window.title("About Notepad+-")
 
     #Create a Label in New window
@@ -230,6 +230,34 @@ status_bar.pack(fill="x", side="bottom", ipady=5)
 
 #########################################################
 
+#TODO: colocar a barra lateral com o número de linhas
 
+#TODO: adicionar o menu de opção de aparecer ou nao a linha na barra lateral
+
+#TODO: Adicionar o campo lateral com a listagem dos arquivos e o form de buscar
+
+#TODO: Implementar a lógica do modo de busca (buscar dentro de todos os documentos listados o termo escrito no form)
+
+#TODO: implementar a lógica para carregar e salvar as configurações do programa de um arquivo (JSON é uma boa idéia)
+
+#TODO: imlementar a lógica de abrir os arquivos em abas
+
+#TODO: Implementar a lógica do autosave com menu de seleção on/off, do tempo de salvamento e salvar nas configurações
+
+#TODO: colocar as funções em outro arquivo
+
+#TODO: Implementar na barra da parte de baixo a quantidade de linhas/linha atual
+
+#TODO: Implementar na barra da parte de baixo a quantidade de colunas/coluna atual
+
+#TODO: Implementar na barra da parte de baixo a quantidade de palavras/palavra atual
+
+#TODO: Implementar na barra da parte de baixo a quantidade de caracteres/caracter atual
+
+#TODO: Implementar botões de atalho na barrra de menu (save, open...etc)
+
+#TODO: Implementar a quebra de linha automática (de acordo com o tamanho da tela)
+
+#TODO: implementar os atalhos do teclado
 
 root.mainloop()
